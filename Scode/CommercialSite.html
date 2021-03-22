@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="practice.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,800;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>practice</title>
+</head>
+
+<body>
+    <div class="header">
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="logo.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="menuiteams">
+                        <li><a href="">home</a></li>
+                        <li><a href="">prducts</a></li>
+                        <li><a href="">comtact</a></li>
+                        <li><a href="">about</a></li>
+                        <li><a href="">account</a></li>
+                    </ul>
+                </nav>
+                <img src="cart.png" width="30px" height="30px">
+                <img src="menuicon.png" class="menu-icon" onclick="menutoggle()">
+
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>give your workout <br> a new style!</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi libero,
+                        <br> qui ducimus consectetur architecto molestiae!
+                        In eum pariatur placeat doloremque quae nisi corrupti.
+                    </p>
+                    <a href="" class="btn">explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="bg3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- features categores/ cart product-->
+    <div class="categories">
+        <div class="small-container">
+
+            <div class="row">
+                <div class="col-3">
+                    <img src="sunglass.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="coat.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="shoes.jpg">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- featured products-->
+
+
+
+    <div class="small-container">
+        <h2 class="title"> Featured products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="tv.webp">
+                <h4>television</h4>
+                <div class="ratting">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50,00</p>
+            </div>
+            <div class="col-4">
+                <img src="fridge.webp">
+                <h4> Fridge</h4>
+                <div class="ratting">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$70,00</p>
+            </div>
+            <div class="col-4">
+                <img src="router.jpeg">
+                <h4>Router</h4>
+                <div class="ratting">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$10,00</p>
+            </div>
+            <div class="col-4">
+                <img src="mobile.jpg">
+                <h4>Mobile Phone</h4>
+                <div class="ratting">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$30,00</p>
+            </div>
+        </div>
+        <h2 class="title"> Latest products</h2>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="tv.webp">
+                <h4>television</h4>
+                <div class="ratting">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50,00</p>
+            </div>
+            <div class="col-4">
+                <img src="fridge.webp">
+                <h4> Fridge</h4>
+                <div class="ratting">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$70,00</p>
+            </div>
+            <div class="col-4">
+                <img src="router.jpeg">
+                <h4>Router</h4>
+                <div class="ratting">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$10,00</p>
+            </div>
+            <div class="col-4">
+                <img src="mobile.jpg">
+                <h4>Mobile Phone</h4>
+                <div class="ratting">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$30,00</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="tv.webp">
+                <h4>television</h4>
+                <div class="ratting">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50,00</p>
+            </div>
+            <div class="col-4">
+                <img src="fridge.webp">
+                <h4> Fridge</h4>
+                <div class="ratting">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$70,00</p>
+            </div>
+            <div class="col-4">
+                <img src="router.jpeg">
+                <h4>Router</h4>
+                <div class="ratting">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$10,00</p>
+            </div>
+            <div class="col-4">
+                <img src="mobile.jpg">
+                <h4>Mobile Phone</h4>
+                <div class="ratting">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$30,00</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- offer -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="band2.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on Rebel Store</p>
+                    <h1>Smart Band 4</h1>
+                    <small>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At sequi voluptatem placeat,
+                        odio blanditiis sit distinctio atque quos non veritatis
+                        libero excepturi tenetur est doloremque exercitationem aut aperiam ut? Accusantium.
+                    </small>
+                    <a href="#" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+<!--------testimonial  -------->
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod iure ipsam, 
+                    voluptates maiores amet autem ex consequuntur reiciendis beatae natus dicta eos impedit cumque, 
+                    laboriosam necessitatibus corrupti! Fugiat, aperiam. Magnam.</p>
+                    <div class="ratting">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="Amanda.jpg">
+                    <h3>Amanda cerny</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod iure ipsam, 
+                    voluptates maiores amet autem ex consequuntur reiciendis beatae natus dicta eos impedit cumque, 
+                    laboriosam necessitatibus corrupti! Fugiat, aperiam. Magnam.</p>
+                    <div class="ratting">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="ronaldo.jpg">
+                    <h3>Ronaldo</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod iure ipsam, 
+                    voluptates maiores amet autem ex consequuntur reiciendis beatae natus dicta eos impedit cumque, 
+                    laboriosam necessitatibus corrupti! Fugiat, aperiam. Magnam.</p>
+                    <div class="ratting">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="salena1.jpg">
+                    <H3>Salena Gomez</h3>
+            </div>
+          
+        </div>
+    </div>
+</div>
+<!-------------brands------------------>
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="converse.jpg">
+            </div>
+            <div class="col-5">
+                <img src="nike.png">
+            </div>
+            <div class="col-5">
+                <img src="fords.png">
+            </div>
+            <div class="col-5">
+                <img src="Disney.png">
+            </div>
+            <div class="col-5">
+                <img src="reebok.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------footer------------->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col1-">
+                <h3>Download Our App</h3>
+                <p>bla bla bla bla bla bla bla bla bla bla bla</p>
+                <div class="app-logo">
+                    <img src="applogo.png">
+                    <img src="applogo3.png">
+                </div>
+            </div>
+            <div class="footer-col2-">
+               <img src="logo.png" >
+                <p>bla bla bla bla bla bla bla bla bla bla bla</p>
+            </div>
+            <div class="footer-col3-">
+                <h3>Useful links</h3>
+                <ul>
+                    <li>coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col4-">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+            <div>
+                <h3 style="text-align: center; margin: 0;">Created By Anup Adhikari</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------js for toggle menu---------------->
+<script>
+    var menuiteams = document.getElementById("menuiteams");
+    menuiteams.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(menuiteams.style.maxHeight =="0px" )
+    {
+        menuiteams.style.maxHeight = "200px";
+  }
+else
+ {
+
+    menuiteam.style.maxHeight = "0px";
+
+ }
+
+
+</script>
+
+</body>
+
+</html>
